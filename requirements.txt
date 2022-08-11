@@ -1,1 +1,4 @@
+matplotlib==3.5.3
+numpy==1.23.1
+pandas==1.4.3
 rise==5.7.1
