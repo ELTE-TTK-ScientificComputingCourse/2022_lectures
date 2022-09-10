@@ -46,7 +46,7 @@ def main():
         if len(faces) == 1:
             x, y, w, h = faces[0]
             cropped = gray[y:y+h, x:x+w]
-            model_input = np.expand_dims(cv2.resize(cropped, (64, 64)), axis=0)
+            model_input = np.expand_dims(cv2.resize(cropped, (64, 64)), axis=0) / 255.0
             p = float(np.squeeze(model.predict(model_input, verbose=0)))
             verdict = int(p >= 0.5)
             recent_predictions.append(verdict)
