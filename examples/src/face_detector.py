@@ -2,7 +2,7 @@ import pathlib
 import PySimpleGUI as sg
 import cv2
 
-SCALE_FACTOR = 2
+SCALE_FACTOR = 1.5
 
 WIDTH = int(640 * SCALE_FACTOR)
 HEIGHT = int(480 * SCALE_FACTOR)
@@ -35,12 +35,12 @@ def main():
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = face_cascade.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=7, minSize=(30, 30))
 
-        frame = cv2.resize(frame, (SCALE_FACTOR*fh, SCALE_FACTOR*fw))
+        frame = cv2.resize(frame, (int(SCALE_FACTOR*fh), int(SCALE_FACTOR*fw)))
         for x, y, w, h in faces:
             cv2.rectangle(
                 frame,
-                (SCALE_FACTOR*x, SCALE_FACTOR*y),
-                (SCALE_FACTOR*(x + w), SCALE_FACTOR*(y + h)),
+                (int(SCALE_FACTOR*x), int(SCALE_FACTOR*y)),
+                (int(SCALE_FACTOR*(x + w)), int(SCALE_FACTOR*(y + h))),
                 (0, 255, 0),
                 thickness=2)
 
