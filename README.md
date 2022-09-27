@@ -21,12 +21,12 @@ Logikai értékek, összehasonlító operátorok, `a == b` vs. `a is b`, if-elif
 
 ## 3. óra
 
-Függvények, függvényparaméterek átadása pozíció és név alapját, visszatérési érték. Rekurzív függvények, névtér és érvényességi kör. A Python beépített lineáris adatszerkezetei: lista és tuple. Egy lista logikai értéke, hogyan tesszük feltételbe, hogy egy lista (string, tuple, stb.) üres-e? Lambda-függvény, list comprehension, slicing.
+Függvények, függvényparaméterek átadása pozíció és név alapját, visszatérési érték. Rekurzív függvények, lambda-függvény. A Python beépített lineáris adatszerkezetei: lista és tuple. Egy lista logikai értéke, hogyan tesszük feltételbe, hogy egy lista (string, tuple, stb.) üres-e? Lista metódusok, append és pop, insert, remove, index. Slicing.
 
 
 ## 4. óra
 
-További alapvető adatszekezetek: dictionary, set, frozenset. A collections könyvtár néhány adatszerkezete: defaultdict, namedtuple, Counter.
+List comprehension. További alapvető adatszekezetek: dictionary, set, frozenset. A collections könyvtár néhány adatszerkezete: defaultdict, namedtuple, Counter.
 
 Kivételek kezelése, fájlbeolvasás, adat beolvasása standard inputról.
 
