@@ -35,27 +35,33 @@ Kivételek kezelése, fájlbeolvasás, adat beolvasása standard inputról.
 
 Néhány algoritmustervezési módszer: rekurzió, memoization (cache-elés), dinamikus programozás(-szerűség), brute-force. A
 2-SUM feladat burute-force megoldása. Mese programozási paradigmákról, bevezetés az OOP-be. Osztály, példány. Osztályok
-alkalmazása: 1) állapotot akarunk fenntartani, pl. bankszámla vezetés, 2) adatot tárolunk és manipulálunk úgy, hogy a részleteket elrejtjük a felhasználó elől (encapsulation, abstraction), a verem adatszerkezet (esetleg hashtábla implementálása kézzel). Operátor túlterhelés, a
-beépített Python függvények és operátorok kiterjesztése általunk definiált adatszerkezetre. A racionális számokra és a velük való műveletekre készítsük osztályt.
+alkalmazása: 1) állapotot akarunk fenntartani, pl. bankszámla vezetés, 2) adatot tárolunk és manipulálunk úgy, hogy a részleteket elrejtjük a felhasználó elől (encapsulation, abstraction).
+
 
 ## 6. óra
 
-További fejezetek az OOP-ből, egyéb mágikus osztálymetódusok: rendezés, a callable osztály. Öröklődés (csak érintőlegesen), a Python sztenderd könyvtár néhány modulja.
+A verem adatszerkezet implementációja. Operátor túlterhelés, a
+beépített Python függvények és operátorok kiterjesztése általunk definiált adatszerkezetre, például a racionális számokra.
+
+További fejezetek az OOP-ből, egyéb mágikus osztálymetódusok: rendezés, a callable osztály.
 
 
 ### 7. óra
 
+OOP: öröklődés (csak érintőlegesen), a Python sztenderd könyvtár néhány modulja.
+
 A funkcionális programozási paradigma, map és filter. Generátorok, next és yield. Az itertools könyvtár. Végtelen sorozatok kezelése. Imperatív vs. funkcionális stílus.
 
-A Numpy alapjai. Vektorok és mátrixok készítése, indexelés.
 
 ### 8. óra
 
-Numpy második rész. Vektor és mátrixműveletek, mátrix determináns, inverz, lineáris egyenletrendszerek megoldása. Egyszerű matplotlib ábrák készítése, egyszerűbb alkalmazások képfeldolgozásból.
+A Numpy alapjai. Vektorok és mátrixok készítése, indexelés. Vektor és mátrixműveletek, mátrix determináns, inverz, lineáris egyenletrendszerek megoldása. Egyszerű matplotlib ábrák készítése, egyszerűbb alkalmazások képfeldolgozásból.
+
 
 ### 9. óra
 
-A pandas könyvtár, egy táblázatos adatsor elemzése. (Még nem tudom milyen adaton)
+A pandas könyvtár, egy táblázatos adatsor elemzése és ábrák készítése.
+
 
 ### 10. órától
 
