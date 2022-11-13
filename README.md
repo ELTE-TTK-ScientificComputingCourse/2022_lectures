@@ -65,4 +65,4 @@ A pandas könyvtár, egy táblázatos adatsor elemzése és ábrák készítése
 
 ### 10. órától
 
-Algoritmikus gondolkodás. Számelméleti algortimusok, prímszámok, gráfelméleti algoritmusok: gráfok bejárása, szélességi keresés, összefüggő komponensek, rendezések (insertion sort, merge sort), stb.
+Algoritmikus gondolkodás. Számelméleti algoritmusok, prímszámok, gráfelméleti algoritmusok: gráfok bejárása, szélességi keresés, összefüggő komponensek, rendezések (insertion sort, merge sort), stb.
